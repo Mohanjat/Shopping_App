@@ -1,0 +1,68 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #f0f0f0, #ffffff); /* Light gray to white gradient */
+    color: #333;
+    border-bottom: 1px solid #ddd; /* Light border for better separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-sizing: border-box;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo a {
+    color: #333;
+    text-decoration: none;
+    font-size: 30px; /* Slightly smaller font size */
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 100px; /* Adjusted margin */
+  }
+  
+  .navbar-search input {
+    padding: 8px 8px; /* Smaller padding */
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 4px 4px 4px 4px;
+    width: 48%; /* Reduced width */
+    font-size: 1rem; /* Smaller font size */
+    position: relative;
+  }
+  
+  
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-button {
+    color: #333;
+    text-decoration: none;
+    margin-left: 24px; /* Increased margin for more space between buttons */
+    margin-right: 50px;
+    font-size: 20px; /* Font size for text */
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-button.home-button {
+    margin-left: 0; /* Remove margin-left for Home button to align with navbar-logo */
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 10px; /* Font size for count */
+    font-weight: bold;
+  }
+  

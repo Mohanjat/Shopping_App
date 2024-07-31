@@ -1,0 +1,70 @@
+/* ProductList.css */
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the product items */
+    gap: 20px; /* Add space between items */
+    padding: 20px; /* Add padding around the list */
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px; /* More rounded corners */
+    margin: 10px;
+    padding: 15px; /* Increase padding for better spacing */
+    width: 220px; /* Slightly larger width */
+    text-align: center;
+    background-color: #fff; /* White background for better contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  }
+  
+  .product-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 150px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensure image covers the area without distortion */
+    border-radius: 8px; /* Match border-radius of the item */
+    margin-bottom: 10px; /* Space between image and text */
+  }
+  
+  .product-name {
+    font-size: 18px; /* Larger font size for the name */
+    font-weight: bold;
+    margin-bottom: 5px; /* Space below the name */
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #333; /* Darker color for better readability */
+    margin-bottom: 10px; /* Space below the price */
+  }
+  
+  .add-to-cart-button {
+    padding: 10px 20px; /* Larger padding for a better button size */
+    border: none;
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Larger font size for better readability */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+  .add_cart{
+    background-color: green;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 3px;
+  }
+  
