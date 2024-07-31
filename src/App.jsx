@@ -51,7 +51,7 @@ const App = () => {
         <Navbar cartItemCount={cartItems.length} />
         <ToastContainer />
         <Routes>
-          <Route path="/" element={<Home products={products} addToCart={addToCart} />} />
+          <Route path="/Shopping_App/" element={<Home products={products} addToCart={addToCart} />} />
           <Route path="/cart" element={<Cart cartItems={cartItems} removeFromCart={removeFromCart} updateQuantity={updateQuantity} clearCart={clearCart} totalPrice={totalPrice} />} />
         </Routes>
       </div>

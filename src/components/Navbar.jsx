@@ -21,7 +21,7 @@ const Navbar = ({ cartItemCount }) => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">Shopping App</Link>
+        <Link to="/Shopping_App/">Shopping App</Link>
       </div>
       <form className="navbar-search" onSubmit={handleSearchSubmit}>
         <input
@@ -32,7 +32,7 @@ const Navbar = ({ cartItemCount }) => {
         />
       </form>
       <div className="navbar-buttons">
-        <Link to="/" className="navbar-button home-button">
+        <Link to="/Shopping_App/" className="navbar-button home-button">
           Home
         </Link>
         {!isCartPage && (
